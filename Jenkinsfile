@@ -1,7 +1,7 @@
 pipeline{
   agent any
   stages{
-    stage("Hello"){
+    stage("Hello from main"){
       steps{
         echo "Helo from Jenkinsfile"
       }
